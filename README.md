@@ -59,3 +59,4 @@ https://elixir.bootlin.com/glibc/glibc-2.36/source/include/link.h#L95
 
 If anybody makes it, please ping me! ;)
 
+Thanks to: jeffy 0xcyb3rz3np4153c and 0xf00s 
