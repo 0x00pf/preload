@@ -4,21 +4,26 @@ _delete:
 	mov $11, %rax
 	syscall
 
-#	mov $11, %rax
-#	sub $0x1000, %rdi
-#	syscall
+	mov $11, %rax
+	sub $0x1000, %rdi
+	syscall
 
 	mov $11, %rax
 	add $0x1000, %rdi
 	syscall
 
 	mov $11, %rax
-	add $0x2000, %rdi
+	add $0x1000, %rdi
 	syscall
 
-#	mov $11, %rax
-#	add $0x1000, %rdi
-#	syscall
+	mov $11, %rax
+	add $0x1000, %rdi
+	syscall
+
+	
+	mov $11, %rax
+	add $0x1000, %rdi
+	syscall
 
 #	mov $1, %rax
 #	mov $1, %rdi
@@ -37,7 +42,7 @@ _delete:
 	ret
 	
 	
-msg:
-	.asciz "Hello, world!\n"
+#msg:
+#	.asciz "Hello, world!\n"
 	
 .section .note.GNU-stack,"",@progbits
