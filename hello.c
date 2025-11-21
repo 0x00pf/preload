@@ -15,6 +15,7 @@ int main () {
 	// getc will fire the symbol resolution... we had removed test.so 
 	// from the process otherwise the program will crash
 	getc(stdin);
+	getchar();
 	printf ("Finishing Main App\n");
 	return 0;
 }
